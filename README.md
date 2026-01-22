@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AVL Tree Visualizer
 
 This is a small, beginner-friendly project that visualizes an AVL (self-balancing binary search) tree in the browser using plain HTML, CSS and JavaScript — no frameworks.
@@ -54,3 +55,6 @@ Tip: If the site does not show immediately, try clearing the cache or check the 
 - The visual layout is simple (inorder spacing). A more advanced layout could space nodes by subtree size to prevent overlap for large trees.
 - You can extend the UI with delete operation or animations for rotations.
 
+=======
+# avl-tree-visualizer
+>>>>>>> 6af9d9c5bc7560e5432e2cb1ddfa5dc3ece55428
