@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AVL Tree Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>AVL Tree Visualizer</h1>
+
+    <section class="controls">
+      <label for="valueInput">Number</label>
+      <input id="valueInput" type="number" placeholder="Enter a number" />
+      <div class="buttons">
+        <button id="insertBtn" class="btn primary">Insert</button>
+        <button id="resetBtn" class="btn">Reset</button>
+      </div>
+    </section>
+
+    <section class="canvas-wrap">
+      <svg id="treeSvg" class="tree-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+    </section>
+  </main>
+
+  <script src="avl.js"></script>
+  <script src="visualizer.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
